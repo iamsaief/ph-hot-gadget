@@ -32,6 +32,10 @@ h6 {
 	color: var(--dark);
 }
 
+a:hover {
+	color: var(--highlighted);
+}
+
 /* ----- Header ----- */
 .navbar-nav .nav-item:not(:last-child) {
 	margin-right: 30px;
@@ -264,6 +268,22 @@ h6 {
 .categories .card h5 {
 	font-size: 24px;
 	margin-top: 30px;
+}
+
+/* ----- Footer ----- */
+footer p,
+footer a {
+	color: var(--default);
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+footer span {
+	color: #ff2a7e;
+	font-size: 1rem;
+	line-height: 1;
 }
 
 /* -------- Responsive CSS -------- */
